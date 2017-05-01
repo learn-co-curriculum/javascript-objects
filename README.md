@@ -182,7 +182,7 @@ Hm, but what if that's not what we wanted to do? What if we wanted to create a _
 
 ## `Object.assign()`
 
-We can use `Object.assign()` to create a new object and pass it properties from existing objects. `Object.assign` takes any number of objects as its arguments, and it merges them from left to right (so if two objects share a key, the right-most object's value for that key will win). Let's try it out:
+We can use `Object.assign()` to create a new object and pass it properties from existing objects. `Object.assign` takes any number > 0 of objects as its arguments, and it merges them from left to right (so if two objects share a key, the right-most object's value for that key will win). Let's try it out:
 
 ``` javascript
 Object.assign({}, { foo: 'bar' })
