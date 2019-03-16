@@ -83,7 +83,7 @@ var meals = {
 
 We might want to consider diversifying our diet, but otherwise the above object works as expected.
 
-Similarly, if you have a variable `const firstMeal = 'breakfast'` and tried to create an object `var meals = { firstMeal: 'oatmeal' }`, the `meals` object's key would be `'firstMeal'`, _not_ `'breakfast'`.
+Similarly, if you have a variable `const firstMeal = 'breakfast'` and tried to create an object `var meals = { firstMeal: 'oatmeal' }`, the `meals` object's key would be `'oatmeal'`, _not_ `'breakfast'`.
 
 **Top Tip**: ES 6 provides a way to use variables as object keys — you have to wrap the key in square brackets (`[]`). Using the above example, you could write `var meals = { [firstMeal]: 'oatmeal' }` and then `meals` would be `{ breakfast: 'oatmeal' }`. Pretty cool, right?
 
